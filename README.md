@@ -19,7 +19,7 @@ Facebook Clone Backend - Build With ExpressJS
 * <a href="https://github.com/ariandy/astro-be">React Native - astro-fe</a>
 
 ## Endpoints
-* `POST /api/v1/user`, store the user information (name, email, phone number).
+* `POST /api/v1/auth/login`, store the user information (email, password).
 
 Example Request:
 ```
@@ -57,19 +57,14 @@ Example Respond:
 
 1. Clone this repository
    ```
-   $ git clone https://github.com/ariandy/astro-be.git
+   $ git clone https://github.com/ariandy/fb-backend.git
    ```
 2. Install all depedencies on the package.json
    ```
-   $ cd astro-be
+   $ cd fb-backend
    $ npm install
    ```
-3. Just run the migration and seed
+3. Run the Adonis server
    ```
-   $ adonis migration:run
-   $ adonis seed
-   ```
-4. Run the Adonis server
-   ```
-   $ adonis serve --dev
+   $ npm start
    ```
