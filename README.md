@@ -2,10 +2,10 @@
   <img src="https://img.shields.io/badge/Project-ExpressJS-brightgreen.svg"/>
 </a>
 
-# Astro Backend 
+# Facebook Clone Backend 
 
 ## Introduction
-Experimental Astronaut Clone Backend - Build With AdonisJS
+Facebook Clone Backend - Build With ExpressJS
 
 ## Table of Contents
 
