@@ -19,7 +19,7 @@ Facebook Clone Backend - Build With ExpressJS
 * <a href="https://github.com/ariandy/astro-be">React Native - astro-fe</a>
 
 ## Endpoints
-* `POST /api/v1/user`, store the user information (name, email, phone number).
+* `POST /api/v1/user`, store the user information (name, email, phone number). <br>
 Example Request:
 ```
 	{
